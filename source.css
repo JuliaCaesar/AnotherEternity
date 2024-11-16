@@ -38,7 +38,7 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   /*Borders*/
   --border1: 2px solid var(--Secondary-Color); /*master border*/
   --border2: 2px solid var(--Third-Color); /*border 2*/
-  --border3: 2px solid rgb(90,0,150); /*border 3*/
+  --border3: 2px solid rgb(255, 255, 255); /*border 3*/
   
   /*Others variables*/
   /*Radial status*/
