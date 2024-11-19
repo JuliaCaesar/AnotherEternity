@@ -11,10 +11,10 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
 :root {
   /*Global variables that were made/edited by me*/
   --Main-Color: rgb(250, 0, 158); /*main master color*/
-  --Secondary-Color: rgb(170, 0, 158); /*secondary color*/
-  --Third-Color: rgb(110,0,158); /*third color*/
-  --Color-4: rgb(90,0,158); /*color number 4*/
-  --Color-5: hsla(320, 40%, 40%, 0.366); /*color number 5*/
+  --Secondary-Color: rgb(242, 18, 227); /*secondary color*/
+  --Third-Color: rgb(255, 255, 255); /*third color --Third-Color: rgb(110,0,158);*/
+  --Color-4: rgb(90,0,158); /*color number 4 */
+  --Color-5: hsla(320, 40%, 40%, 0.203); /*color number 5*/
   --Color-6: hsla(320, 50%, 50%, 0.466); /*color number 6*/
   --Grey-Color: rgb(31, 31, 31); /*grey color*/
   --Black: rgb(0,0,0); /*black color*/
@@ -60,6 +60,7 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
 }
 /*Discord's global variables copy-paste and edited*/
 .theme-dark, .theme-light {
+  /*all these transparents did nothing*/
   --info-positive-background: transparent!important;
   --info-positive-foreground: transparent!important;
   --info-warning-background: transparent!important;
@@ -78,8 +79,8 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --header-secondary: #7a7f86;
   --text-normal: #fff;
   --text-muted: #55585d;
-  --text-link: var(--Main-Color);
-  --text-link-low-saturation: var(--Secondary-Color);
+  /* --text-link: var(--Main-Color); */
+  /* --text-link-low-saturation: var(--Secondary-Color); */
   --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
   --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
   --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
@@ -93,14 +94,14 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --background-secondary-alt: transparent;
   --background-tertiary: transparent;
   --background-accent: transparent;
-  --background-floating: transparent;
-  --background-nested-floating: transparent;
+  --background-floating: rgb(46, 6, 65); /*THIS ONEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
+  --background-nested-floating: transparent; /*interestingggggggggggg*/
   --background-mobile-primary: transparent;
   --background-mobile-secondary: transparent;
-  --background-modifier-hover: transparent;
-  --background-modifier-active: transparent;
-  --background-modifier-selected: transparent;
-  --background-modifier-accent: transparent;
+  --background-modifier-hover: transparent; /*thinggggggggggggggggg*/
+  --background-modifier-active: transparent; /*thingggggggggggggggg*/
+  --background-modifier-selected: transparent; /*?????????????*/
+  --background-modifier-accent: transparent; /*learningggggg*/
   --info-positive-text: #fff;
   --info-warning-text: #fff;
   --info-danger-text: #fff;
@@ -108,10 +109,10 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --info-help-foreground: transparent;
   --info-help-text: #fff;
   --status-warning-text: #000;
-  --scrollbar-thin-thumb: var(--Main-Color);
-  --scrollbar-thin-track: transparent;
-  --scrollbar-auto-thumb: var(--Secondary-Color);
-  --scrollbar-auto-track:  transparent;
+  --scrollbar-thin-thumb: rgb(92, 8, 131);
+  --scrollbar-thin-track: transparent; /*interestinggggggggggg*/
+  --scrollbar-auto-thumb: rgb(92, 8, 131);
+  --scrollbar-auto-track:  transparent; /*interestinggg*/
   --scrollbar-auto-scrollbar-color-thumb: transparent;
   --scrollbar-auto-scrollbar-color-track: transparent;
   --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
@@ -122,13 +123,13 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
   --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
   --background-mentioned: transparent;
-  --background-mentioned-hover: transparent;
+  --background-mentioned-hover: var(--Color-5);
   --background-message-hover: var(--Color-5);
   --background-message-automod: transparent;
   --background-message-automod-hover: transparent;
   --channels-default: var(--Secondary-Color);
   --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-  --channeltextarea-background: transparent;
+  --channeltextarea-background: transparent; /*interestinggggggggggggggg*/
   --activity-card-background: #202225;
   --textbox-markdown-syntax: #8e9297;
   --spoiler-revealed-background: #292b2f;
@@ -143,7 +144,7 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
   --deprecated-text-input-prefix: #dcddde;
-  --button--underline-color: transparent !important;
+  --button--underline-color: rgb(255,255,255) !important;
   --channel-icon: var(--Secondary-Color);
 }
 
@@ -1214,9 +1215,9 @@ Titlebar top buttons colors. Close, rezise and hide*/
 }
 
 /*When someone is speaking border*/
-.border-2Vy6FN.speaking-7QZEkv {
+/* .border-2Vy6FN.speaking-7QZEkv {
   box-shadow: inset 0px 0px 5px 1px rgb(var(--Neon-Rgb)), 0px 0px 15px 4px rgb(var(--Neon-Rgb)) !important;
-}
+} */
 
 /*Emoji colors*/
 .slots-paZlX-, .slotsContainer-3Li39W {
@@ -1969,19 +1970,19 @@ $$ |  $$ |$$\   $$ |$$ |      $$ |  $$ |      $$\   $$ |$$ |         $$ |      $
 
 /*All blue and underlined text*/
 /*Stable*/
-.anchor-1MIwyf {
+/* .anchor-1MIwyf {
   color: var(--Main-Color) !important;
   text-decoration: none !important;
-}
+} */
 /*Hover*/
-.anchor-1MIwyf:hover {
+/* .anchor-1MIwyf:hover {
   color: var(--Secondary-Color) !important;
   text-decoration: none !important;
-}
+} */
 /*Check out or Terms and... text color*/
-.colorStandard-1Xxp1s {
+/* .colorStandard-1Xxp1s {
   color: var(--Secondary-Color);
-}
+} */
 
 /*#################### Authorized Apps Tab ####################*/
 
@@ -3355,7 +3356,7 @@ $$ |  $$ |$$ |  $$ |  $$ |  $$ |      $$ |  $$ |$$\   $$ |
 /*When viewing user profile popout actions button color (update 25.10.2022)*/
 .actionColor-3JIzOn {
   color: var(--Secondary-Color);
-  background-color: transparent;
+  /* background-color: transparent; */
   border-radius: 15px;
   border: 1px var(--Main-Color) solid;
 }
