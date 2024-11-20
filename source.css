@@ -11,7 +11,7 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
 :root {
   /*Global variables that were made/edited by me*/
   --Main-Color: rgb(250, 0, 158); /*main master color*/
-  --Secondary-Color: rgb(242, 18, 227); /*secondary color*/
+  --Secondary-Color: rgb(170, 0, 158); /*secondary color*/
   --Third-Color: rgb(255, 255, 255); /*third color --Third-Color: rgb(110,0,158);*/
   --Color-4: rgb(90,0,158); /*color number 4 */
   --Color-5: hsla(320, 40%, 40%, 0.203); /*color number 5*/
@@ -95,13 +95,13 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --background-tertiary: transparent;
   --background-accent: transparent;
   --background-floating: rgb(46, 6, 65); /*THIS ONEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
-  --background-nested-floating: transparent; /*interestingggggggggggg*/
+  --background-nested-floating: rgb(46, 6, 65); /*interestingggggggggggg*/
   --background-mobile-primary: transparent;
   --background-mobile-secondary: transparent;
-  --background-modifier-hover: transparent; /*thinggggggggggggggggg*/
-  --background-modifier-active: transparent; /*thingggggggggggggggg*/
+  --background-modifier-hover: rgba(134, 36, 180, 0.14); /*thinggggggggggggggggg*/
+  --background-modifier-active: rgb(125, 31, 169); /*thingggggggggggggggg*/
   --background-modifier-selected: transparent; /*?????????????*/
-  --background-modifier-accent: transparent; /*learningggggg*/
+  --background-modifier-accent: rgb(255,255,255); /*learningggggg*/
   --info-positive-text: #fff;
   --info-warning-text: #fff;
   --info-danger-text: #fff;
@@ -129,7 +129,7 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --background-message-automod-hover: transparent;
   --channels-default: var(--Secondary-Color);
   --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-  --channeltextarea-background: transparent; /*interestinggggggggggggggg*/
+  --channeltextarea-background: rgba(134, 36, 180, 0.14); /*interestinggggggggggggggg*/
   --activity-card-background: #202225;
   --textbox-markdown-syntax: #8e9297;
   --spoiler-revealed-background: #292b2f;
