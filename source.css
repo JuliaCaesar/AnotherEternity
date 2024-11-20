@@ -89,32 +89,32 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --interactive-hover: var(--Secondary-Color);
   --interactive-active: var(--Main-Color);
   --interactive-muted: var(--Color-4);
-  --background-primary: transparent;
-  --background-secondary: transparent;
-  --background-secondary-alt: transparent;
-  --background-tertiary: transparent;
-  --background-accent: transparent;
+  --background-primary: transparent; /*DONT CHANGE*/
+  --background-secondary: transparent; /*DONT CHANGE*/
+  --background-secondary-alt: rgba(134, 36, 180, 0.033);
+  --background-tertiary: transparent; /*DONT CHANGE*/
+  --background-accent: transparent; /*only seen it for the nitro limit for one day thing*/
   --background-floating: rgb(46, 6, 65); /*THIS ONEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
   --background-nested-floating: rgb(46, 6, 65); /*interestingggggggggggg*/
-  --background-mobile-primary: transparent;
-  --background-mobile-secondary: transparent;
+  --background-mobile-primary: transparent; /*idk*/
+  --background-mobile-secondary: transparent; /*idk*/
   --background-modifier-hover: rgba(134, 36, 180, 0.14); /*thinggggggggggggggggg*/
   --background-modifier-active: rgb(125, 31, 169); /*thingggggggggggggggg*/
   --background-modifier-selected: transparent; /*?????????????*/
-  --background-modifier-accent: rgb(255,255,255); /*learningggggg*/
+  /* --background-modifier-accent: rgb(255,255,255); learningggggg */
   --info-positive-text: #fff;
   --info-warning-text: #fff;
   --info-danger-text: #fff;
-  --info-help-background: transparent;
-  --info-help-foreground: transparent;
+  --info-help-background: transparent; /*idk*/
+  --info-help-foreground: transparent; /*idk*/
   --info-help-text: #fff;
   --status-warning-text: #000;
   --scrollbar-thin-thumb: rgb(92, 8, 131);
   --scrollbar-thin-track: transparent; /*interestinggggggggggg*/
   --scrollbar-auto-thumb: rgb(92, 8, 131);
   --scrollbar-auto-track:  transparent; /*interestinggg*/
-  --scrollbar-auto-scrollbar-color-thumb: transparent;
-  --scrollbar-auto-scrollbar-color-track: transparent;
+  --scrollbar-auto-scrollbar-color-thumb: transparent; /*idk*/
+  --scrollbar-auto-scrollbar-color-track: transparent; /*idk*/
   --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
   --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
   --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
@@ -122,11 +122,11 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --logo-primary: #fff;
   --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
   --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
-  --background-mentioned: transparent;
+  --background-mentioned: transparent; /*idk*/
   --background-mentioned-hover: var(--Color-5);
   --background-message-hover: var(--Color-5);
-  --background-message-automod: transparent;
-  --background-message-automod-hover: transparent;
+  --background-message-automod: transparent; /*idk*/
+  --background-message-automod-hover: transparent; /*idk*/
   --channels-default: var(--Secondary-Color);
   --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
   --channeltextarea-background: rgba(134, 36, 180, 0.14); /*interestinggggggggggggggg*/
@@ -134,12 +134,12 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --textbox-markdown-syntax: #8e9297;
   --spoiler-revealed-background: #292b2f;
   --spoiler-hidden-background: #202225;
-  --deprecated-card-bg: transparent;
-  --deprecated-card-editable-bg: transparent;
-  --deprecated-store-bg: transparent;
-  --deprecated-quickswitcher-input-background: transparent;
+  --deprecated-card-bg: transparent; /*idk*/
+  --deprecated-card-editable-bg: transparent; /*idk*/
+  --deprecated-store-bg: transparent; /*idk*/
+  --deprecated-quickswitcher-input-background: transparent; /*idk*/
   --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
-  --deprecated-text-input-bg: transparent;
+  --deprecated-text-input-bg: transparent; /*idk*/
   --deprecated-text-input-border: rgba(0,0,0,0.3);
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
@@ -370,13 +370,13 @@ Titlebar top buttons colors. Close, rezise and hide*/
 }
 
 /*Sticker & gif popouts*/
-.emojiPickerInExpressionPicker-2nOwH8, .container-3u7RcY {
+/* .emojiPickerInExpressionPicker-2nOwH8, .container-3u7RcY {
   background: transparent;
-}
+} */
 /*Gif popout, favorite fade*/
-.theme-dark .categoryFadeBlurple-1l49_Q, .theme-light .categoryFadeBlurple-1l49_Q {
+/* .theme-dark .categoryFadeBlurple-1l49_Q, .theme-light .categoryFadeBlurple-1l49_Q {
   background-color: transparent;
-}
+} */
 
 /*Nitro gift popout*/
 .spinner-3QeLKO {
