@@ -369,14 +369,15 @@ Titlebar top buttons colors. Close, rezise and hide*/
   color: var(--Main-Color);
 }
 
-/*Sticker & gif popouts*/
-/* .emojiPickerInExpressionPicker-2nOwH8, .container-3u7RcY {
+
+/*Sticker & gif popouts*/ /*apparently commenting out does nothing*/
+.emojiPickerInExpressionPicker-2nOwH8, .container-3u7RcY {
   background: transparent;
-} */
-/*Gif popout, favorite fade*/
-/* .theme-dark .categoryFadeBlurple-1l49_Q, .theme-light .categoryFadeBlurple-1l49_Q {
+}
+/*Gif popout, favorite fade*/ /*apparently commenting out does nothing*/
+.theme-dark .categoryFadeBlurple-1l49_Q, .theme-light .categoryFadeBlurple-1l49_Q {
   background-color: transparent;
-} */
+}
 
 /*Nitro gift popout*/
 .spinner-3QeLKO {
@@ -384,13 +385,13 @@ Titlebar top buttons colors. Close, rezise and hide*/
   background-color: var(--Black);
 }
 
-/*Pinned messages popout*/
+/*Pinned messages popout*/ /*apparently commenting out does nothing*/
 .messagesPopoutWrap-3zryHW {
   background: black !important;
   border-color: rgb(var(--Neon-Rgb)) !important;
   box-shadow: inset 0px 0px 5px 1px rgb(var(--Neon-Rgb)), 0px 0px 15px 4px rgb(var(--Neon-Rgb)) !important;
 }
-/*Popout: the pinned message that u wanna pin*/
+/*Popout: the pinned message that u wanna pin*/ /*apparently commenting out does nothing*/
 .theme-dark .message-G6O-Wv {
   background-color: transparent;
 }
