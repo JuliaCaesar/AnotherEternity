@@ -95,13 +95,13 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --background-tertiary: transparent; /*DONT CHANGE*/
   --background-accent: transparent; /*only seen it for the nitro limit for one day thing*/
   --background-floating: rgb(46, 6, 65); /*THIS ONEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
-  --background-nested-floating: rgb(46, 6, 65); /*interestingggggggggggg*/
+  --background-nested-floating: rgb(46, 6, 65); 
   --background-mobile-primary: transparent; /*idk*/
   --background-mobile-secondary: transparent; /*idk*/
-  --background-modifier-hover: rgba(134, 36, 180, 0.14); /*thinggggggggggggggggg*/
-  --background-modifier-active: rgb(125, 31, 169); /*thingggggggggggggggg*/
-  --background-modifier-selected: transparent; /*?????????????*/
-  /* --background-modifier-accent: rgb(255,255,255); learningggggg */
+  --background-modifier-hover: rgba(134, 36, 180, 0.14); 
+  --background-modifier-active: rgb(125, 31, 169);
+  --background-modifier-selected: transparent; /*Highlighted background of channel selected*/
+  --background-modifier-accent: transparent; /*idk*/
   --info-positive-text: #fff;
   --info-warning-text: #fff;
   --info-danger-text: #fff;
@@ -110,9 +110,9 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --info-help-text: #fff;
   --status-warning-text: #000;
   --scrollbar-thin-thumb: rgb(92, 8, 131);
-  --scrollbar-thin-track: transparent; /*interestinggggggggggg*/
+  --scrollbar-thin-track: transparent; /*idk*/
   --scrollbar-auto-thumb: rgb(92, 8, 131);
-  --scrollbar-auto-track:  transparent; /*interestinggg*/
+  --scrollbar-auto-track:  transparent; /*scrollbar background*/ 
   --scrollbar-auto-scrollbar-color-thumb: transparent; /*idk*/
   --scrollbar-auto-scrollbar-color-track: transparent; /*idk*/
   --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
@@ -129,7 +129,7 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   --background-message-automod-hover: transparent; /*idk*/
   --channels-default: var(--Secondary-Color);
   --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-  --channeltextarea-background: rgba(134, 36, 180, 0.14); /*interestinggggggggggggggg*/
+  --channeltextarea-background: rgba(134, 36, 180, 0.14); 
   --activity-card-background: #202225;
   --textbox-markdown-syntax: #8e9297;
   --spoiler-revealed-background: #292b2f;
