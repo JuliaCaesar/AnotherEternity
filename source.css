@@ -369,7 +369,6 @@ Titlebar top buttons colors. Close, rezise and hide*/
   color: var(--Main-Color);
 }
 
-
 /*Sticker & gif popouts*/ /*apparently commenting out does nothing*/
 .emojiPickerInExpressionPicker-2nOwH8, .container-3u7RcY {
   background: transparent;
@@ -1216,9 +1215,9 @@ Titlebar top buttons colors. Close, rezise and hide*/
 }
 
 /*When someone is speaking border*/
-/* .border-2Vy6FN.speaking-7QZEkv {
+.border-2Vy6FN.speaking-7QZEkv {
   box-shadow: inset 0px 0px 5px 1px rgb(var(--Neon-Rgb)), 0px 0px 15px 4px rgb(var(--Neon-Rgb)) !important;
-} */
+}
 
 /*Emoji colors*/
 .slots-paZlX-, .slotsContainer-3Li39W {
